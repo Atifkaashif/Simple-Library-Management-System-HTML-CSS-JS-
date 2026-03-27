@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    width: 900px;
+    background: #020617;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(56,189,248,0.4);
+}
+
+h1 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #22c55e;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+#search {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #334155;
+    text-align: center;
+}
+
+.available {
+    color: #22c55e;
+}
+
+.issued {
+    color: #ef4444;
+}
+
+.action-btn {
+    background: #38bdf8;
+    color: black;
+}
+
+.delete-btn {
+    background: #ef4444;
+    margin-left: 5px;
+}
